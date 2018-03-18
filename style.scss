@@ -1,0 +1,11 @@
+@import 'styles/initial';
+@import 'styles/typography';
+
+.site-content {
+    display: flex;
+    align-items: center;
+}
+
+.site-title {
+    font-weight: bold;
+}
