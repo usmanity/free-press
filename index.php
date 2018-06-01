@@ -8,7 +8,17 @@
 </head>
 <body>
     <?php get_header(); ?>
-    <?php get_template_part( 'content', get_post_format() ); ?>
+
+    <!-- START WORDPRESS LOOP -->
+    <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+        <?php the_content(); ?>
+    <?php endwhile; else : ?>
+        <p>
+            <?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?>
+        </p>
+    <?php endif; ?>
+    <!-- ↑ END THE LOOP -->
+
     <?php get_footer(); ?>
 </body>
 </html>
