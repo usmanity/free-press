@@ -17,4 +17,5 @@ This theme is focused on removing extraneous visual elements and getting to the 
 *These goals might change as I move forward but right now they're good to navigate by*
 
 ## Versioning
-There will be no version until I have a working version of the theme ready.
+There will be no version above 1.0 until I have a working version of the theme ready. 
+Each minor version will include changes and I will try to keep them from breaking major features of the theme.
