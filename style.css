@@ -19,14 +19,14 @@ body {
   font-family: "Inter UI", sans-serif;
   font-family: "Inter UI", sans-serif;
   font-weight: 400;
+  line-height: 1.6;
 }
 
 .container {
-  max-width: 1280px;
+  width: 840px;
   max-width: 80vw;
   margin: 10vh auto;
   font-size: 2rem;
-  line-height: 2.8rem;
 }
 
 .container.main-page .post h1.title {
@@ -38,12 +38,13 @@ p {
 }
 
 h1.title {
-  margin: 20px auto;
+  margin: 40px auto 20px;
   text-align: center;
   font-size: 3.6em;
   letter-spacing: 0.03em;
   font-family: "Inter UI", sans-serif;
   font-weight: 200;
+  line-height: 1.6;
   font-weight: 400;
 }
 
