@@ -8,3 +8,43 @@ License URI: https://github.com/usmanity/free-press/blob/master/license
 Tags: minimal, clean, simple
 Text domain: free-press
 */
+@import url("https://rsms.me/inter/inter-ui.css");
+html, body {
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter UI", sans-serif;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1280px;
+  max-width: 80vw;
+  margin: 10vh auto;
+  font-size: 2em;
+}
+
+p {
+  font-size: 2.2rem;
+  line-height: 3rem;
+  color: #111;
+}
+
+h1.title {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 3.6em;
+  letter-spacing: 0.03em;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-weight: 400;
+}
+
+.post {
+  margin: 30px 0;
+}
+/*# sourceMappingURL=style.css.map */
