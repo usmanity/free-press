@@ -11,15 +11,14 @@ Text domain: free-press
 @import url('https://rsms.me/inter/inter-ui.css');
 
 $inter: 'Inter UI', sans-serif;
-$cormorant: 'Cormorant Garamond', serif;
 
 @mixin light-font {
-    font-family: $cormorant;
-    font-weight: 300;
+    font-family: $inter;
+    font-weight: 200;
 }
 @mixin medium-font {
-    font-family: $cormorant;
-    font-weight: 500;
+    font-family: $inter;
+    font-weight: 400;
 }
 
 $black: #111;
@@ -38,12 +37,11 @@ body {
     max-width: 1280px;
     max-width: 80vw;
     margin: 10vh auto;
-    font-size: 2em;
+    font-size: 2rem;
+    line-height: 2.8rem;
 }
 
 p {
-    font-size: 2.2rem;
-    line-height: 3rem;
     color: $black;
 }
 
